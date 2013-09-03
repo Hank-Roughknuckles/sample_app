@@ -238,3 +238,9 @@ Started GET "/assets/jquery.js?body=1" for 10.0.3.2 at 2013-09-03 11:39:56 +0900
 
 
 Started GET "/assets/application.js?body=1" for 10.0.3.2 at 2013-09-03 11:39:56 +0900
+
+
+Started GET "/static_pages/home" for 10.0.3.2 at 2013-09-03 12:44:44 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (1.1ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
