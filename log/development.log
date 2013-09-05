@@ -436,3 +436,42 @@ Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-04 16:45:03
 
 
 Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-04 16:45:03 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-05 16:08:29 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /var/lib/gems/1.9.1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (4.4ms)
+Completed 200 OK in 98ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-05 16:08:30 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /var/lib/gems/1.9.1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-09-05 16:08:37 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 218ms (Views: 217.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-05 16:08:37 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-05 16:08:37 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-05 16:08:37 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-05 16:08:37 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-05 16:08:37 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-05 16:08:37 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-05 16:08:37 +0900
