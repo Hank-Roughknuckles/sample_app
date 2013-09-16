@@ -2061,3 +2061,163 @@ Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-16 10:47:15 +0900
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-09-16 11:18:04 +0900
+
+ArgumentError (missing :action):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.6ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-09-16 11:18:15 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (12.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 302ms (Views: 301.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:16 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:16 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:16 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:16 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:16 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:16 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:16 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:16 +0900
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-16 11:18:16 +0900
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-16 11:18:33 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-16 11:18:37 +0900
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-16 11:18:43 +0900
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-16 11:18:44 +0900
