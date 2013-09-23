@@ -1,0 +1,85 @@
+I, [2013-09-23T13:11:22.125451 #6852]  INFO -- : Migrating to CreateUsers (20130917013422)
+I, [2013-09-23T13:11:22.131939 #6852]  INFO -- : Migrating to AddIndexToUsersEmail (20130917043605)
+I, [2013-09-23T13:11:22.136446 #6852]  INFO -- : Migrating to AddPasswordDigestToUsers (20130917051051)
+I, [2013-09-23T13:11:42.764792 #6855]  INFO -- : Started GET "/" for 10.0.2.2 at 2013-09-23 13:11:42 +0900
+I, [2013-09-23T13:11:42.774254 #6855]  INFO -- : Processing by StaticPagesController#home as HTML
+I, [2013-09-23T13:11:42.778649 #6855]  INFO -- :   Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+I, [2013-09-23T13:11:42.794088 #6855]  INFO -- :   Rendered layouts/_shim.html.erb (0.3ms)
+I, [2013-09-23T13:11:42.795051 #6855]  INFO -- :   Rendered layouts/_header.html.erb (0.3ms)
+I, [2013-09-23T13:11:42.796279 #6855]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2013-09-23T13:11:42.796815 #6855]  INFO -- : Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+I, [2013-09-23T13:11:42.874059 #6855]  INFO -- : Started GET "/stylesheets/application.css" for 10.0.2.2 at 2013-09-23 13:11:42 +0900
+F, [2013-09-23T13:11:42.876758 #6855] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2013-09-23T13:11:42.894927 #6855]  INFO -- : Started GET "/javascripts/application.js" for 10.0.2.2 at 2013-09-23 13:11:42 +0900
+F, [2013-09-23T13:11:42.899710 #6855] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2013-09-23T13:11:42.905509 #6855]  INFO -- : Started GET "/images/rails.png" for 10.0.2.2 at 2013-09-23 13:11:42 +0900
+F, [2013-09-23T13:11:42.910669 #6855] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
