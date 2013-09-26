@@ -5865,3 +5865,186 @@ Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2013-09-26 10:21:28 +0900
 
 
 Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 10:21:28 +0900
+
+
+Started GET "/signin" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/sessions.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:29 +0900
+
+
+Started POST "/sessions" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y/PprsaVSJM3XGXhZrPnTG6XxtsMTAM7wWibNlcd6ag=", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/sessions.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:32 +0900
+
+
+Started POST "/sessions" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y/PprsaVSJM3XGXhZrPnTG6XxtsMTAM7wWibNlcd6ag=", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/sessions.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:35 +0900
+
+
+Started POST "/sessions" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y/PprsaVSJM3XGXhZrPnTG6XxtsMTAM7wWibNlcd6ag=", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/sessions.css?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-26 10:49:36 +0900
