@@ -8289,3 +8289,276 @@ Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-26 13:28:15
 
 
 Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 13:28:15 +0900
+
+
+Started GET "/signin" for 10.0.2.2 at 2013-09-26 13:39:11 +0900
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (19.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-26 13:39:11 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-26 13:39:11 +0900
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2013-09-26 13:39:11 +0900
+
+
+Started GET "/assets/sessions.css?body=1" for 10.0.2.2 at 2013-09-26 13:39:11 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-26 13:39:11 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:11 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:11 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2013-09-26 13:39:12 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 13:39:14 +0900
+Processing by StaticPagesController#home as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `update_attribute' for nil:NilClass):
+  app/helpers/sessions_helper.rb:6:in `sign_in'
+  app/controllers/static_pages_controller.rb:3:in `home'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.2ms)
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 13:39:14 +0900
+Processing by StaticPagesController#home as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `update_attribute' for nil:NilClass):
+  app/helpers/sessions_helper.rb:6:in `sign_in'
+  app/controllers/static_pages_controller.rb:3:in `home'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 13:40:04 +0900
+Processing by StaticPagesController#home as HTML
+Completed 500 Internal Server Error in 51ms
+
+ArgumentError (Unknown key: email):
+  app/controllers/static_pages_controller.rb:3:in `home'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 13:40:58 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'thomas.imorris@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `remember_token`
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["remember_token", "e95d2d25467e2d83e84f4811e127c4964742e2ed"], ["updated_at", Thu, 26 Sep 2013 04:40:58 UTC +00:00]]
+  [1m[36m (31.3ms)[0m  [1mcommit transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 105ms (Views: 28.0ms | ActiveRecord: 32.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/sessions.css?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-26 13:40:59 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 13:41:03 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'thomas.imorris@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `remember_token`
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["remember_token", "a3c4ebe787e177a52778fb16c2e7fea717f1a3b2"], ["updated_at", Thu, 26 Sep 2013 04:41:03 UTC +00:00]]
+  [1m[36m (3.9ms)[0m  [1mcommit transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 89ms (Views: 81.5ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-26 13:41:03 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 13:41:04 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'thomas.imorris@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `remember_token`
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["remember_token", "de20a0abfe9228531ce197219ca94ccf2a5516da"], ["updated_at", Thu, 26 Sep 2013 04:41:04 UTC +00:00]]
+  [1m[36m (5.4ms)[0m  [1mcommit transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 25.8ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-26 13:41:04 +0900
+
+
+Started GET "/users/2" for 10.0.2.2 at 2013-09-26 13:41:07 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'de20a0abfe9228531ce197219ca94ccf2a5516da' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 32.6ms | ActiveRecord: 0.6ms)
