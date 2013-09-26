@@ -8562,3 +8562,254 @@ Processing by UsersController#show as HTML
   Rendered layouts/_header.html.erb (1.6ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 36ms (Views: 32.6ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/signout" for 10.0.2.2 at 2013-09-26 14:01:36 +0900
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"y/PprsaVSJM3XGXhZrPnTG6XxtsMTAM7wWibNlcd6ag="}
+Redirected to http://localhost:9001/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 14:01:36 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (10.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/sessions.css?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-26 14:01:37 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 14:01:40 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-26 14:01:40 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 14:01:41 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (7.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-26 14:01:41 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 14:02:23 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (8.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-26 14:02:23 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (6.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/users.css?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/sessions.css?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/users.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-26 14:06:25 +0900
+
+
+Started GET "/" for 10.0.2.2 at 2013-09-26 14:07:42 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-09-26 14:07:42 +0900
+
+
+Started GET "/signin" for 10.0.2.2 at 2013-09-26 14:07:43 +0900
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.2ms)
