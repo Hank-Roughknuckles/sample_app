@@ -17,6 +17,8 @@ describe "AuthenticationPages" do
 
         it { should have_title "Sign in" }
         it { should have_selector "div.alert.alert-error" }
+        it { should_not have_link "Profile" }
+        it { should_not have_link "Settings" }
 
         describe "after visiting another page" do
           before { click_link "Home" }
@@ -105,6 +107,23 @@ describe "AuthenticationPages" do
         let(:non_admin) { FactoryGirl.create(:user) }
 
         before { sign_in non_admin, no_capybara: true }
+
+        describe "visiting the 'new' action" do
+          before { get new_user_path }
+          specify { expect(response).to redirect_to (root_url) }
+        end
+
+        describe "submitting a POST request to the Users#create action" do
+          let(:post_params) do
+            { user: { email: "asdf@asdf.com",
+                      password: "asdfasdf",
+                      password_confirmation: "asdfasdf" }
+            }
+          end
+
+          before { post users_path post_params }
+          specify { expect(response).to redirect_to (root_url) }
+        end
 
         describe "submitting a DELETE request to the Users#destroy action" do
           before { delete user_path(user) }
