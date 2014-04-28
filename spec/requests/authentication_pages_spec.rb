@@ -81,6 +81,18 @@ describe "AuthenticationPages" do
             it "should render the desired protected page" do
               expect(page).to have_title('Edit user')
             end
+
+            describe "on subsequent sign ins" do
+              before do
+                click_link "Sign out"
+                visit signin_path
+                sign_in user
+              end
+
+              it "should render the default (profile) page" do
+                expect(page).to have_title(user.name)
+              end
+            end
           end
         end
       end
@@ -128,6 +140,17 @@ describe "AuthenticationPages" do
         describe "submitting a DELETE request to the Users#destroy action" do
           before { delete user_path(user) }
           specify { expect(response).to redirect_to(root_url) }
+        end
+      end
+
+      describe "as an admin user" do
+        let(:admin) { FactoryGirl.create(:admin) }
+        before { sign_in admin, no_capybara: true }
+
+        describe "one should not be able to delete oneself" do
+          specify do
+            expect { delete user_path(admin) }.not_to change(User, :count)
+          end
         end
       end
     end
