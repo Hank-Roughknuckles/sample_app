@@ -25,6 +25,42 @@ describe "Static pages" do
           expect(page).to have_selector("li##{item.id}", text: item.content)
         end
       end
+
+      describe "the sidebar" do
+        let(:text) { "#{user.microposts.count} micropost" }
+
+        it "should show the proper number of microposts in the sidebar" do
+          expect(page).to have_selector("aside", text: text)
+        end
+      end
+
+      describe "micropost pagination" do
+        before(:all) { 31.times { FactoryGirl.create( :micropost, user: user )}}
+        after(:all) { Micropost.delete_all }
+
+        let!(:first_post) { Micropost.first }
+        let!(:first_post) { Micropost.last }
+
+        Micropost.paginate(page: 1).each do |micropost|
+          expect(page).to have_selector('li', text: micropost.content)
+        end
+      end
+
+      describe "micropost delete links" do
+        let!(:other_user) { FactoryGirl.create(:user) }
+        before { 
+          visit root_path
+          click_link "Sign out"
+          sign_in other_user
+          visit root_path
+          print page.html
+        }
+
+        it "should not show delete links for microposts made by other
+        users" do
+          expect(page).not_to have_selector("delete")
+        end
+      end
     end
   end
 

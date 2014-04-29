@@ -134,7 +134,6 @@ describe "User Pages" do
           expect(page).to have_selector('li', text: user.name)
         end
       end
-
     end
 
     describe "delete links" do
