@@ -53,7 +53,6 @@ describe "Static pages" do
           click_link "Sign out"
           sign_in other_user
           visit root_path
-          print page.html
         }
 
         it "should not show delete links for microposts made by other
