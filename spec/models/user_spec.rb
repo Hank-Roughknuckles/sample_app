@@ -135,6 +135,7 @@ describe User do
     its(:remember_token) {should_not be_blank}
   end
 
+
   describe "micropost associations" do
     before { @user.save }
 
@@ -219,6 +220,30 @@ describe User do
         followed_user.microposts.each do |micropost|
           should include(micropost)
         end
+      end
+    end
+  end
+
+  describe "relationship associations" do
+    let!(:other_user) { FactoryGirl.create(:user) }
+
+    before do
+      @user.save
+      @user.follow!(other_user)
+      other_user.follow!(@user)
+    end
+
+    describe "When a user is deleted" do
+      it "should destroy associated relationships" do
+         expect do
+           other_user.destroy
+         end.to change(@user.relationships, :count).by(-1)
+      end
+
+      it "should destroy associated reverse relationships" do
+        expect do
+          other_user.destroy
+        end.to change(@user.reverse_relationships, :count).by(-1)
       end
     end
   end
